@@ -11,6 +11,7 @@ body {
 .blog-card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
+  border: 12px solid #FFF;
   box-shadow: 8px 8px 0px #000;
   max-width: 350px;
   overflow: hidden;
@@ -19,6 +20,7 @@ body {
 .blog-card__image {
   width: 100%;
   height: auto;
+  display: block;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
